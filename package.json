@@ -1,0 +1,22 @@
+{
+  "name": "travelacli",
+  "version": "1.0.0",
+  "description": "A cli for travela",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "travela": "./lib/cli.sh"
+  },
+  "homepage": "https://github.com/ekpangmichael/travela_cli#readme",
+  "bugs": {
+    "url": "https://github.com/ekpangmichael/travela_cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekpangmichael/travela_cli.git"
+  },
+  "license": "MIT",
+  "author": "Ekpang Michael <career.ekpangmichael@gmail.com> (https://github.com/ekpangmichael)"
+}
