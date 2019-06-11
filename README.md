@@ -30,11 +30,13 @@ $ -h or --help to access the help menu
 $ travela <flag> <pathtoenvfile> 
 ```
 **Setup Frontend** 
-*The example below assumes that the env file is in the same folder where you are running the command below, otherwise specify the full path to your env file*
+--
+*The example below assumes that the env file is in the same folder where you are running the command, otherwise specify the full path to your env file*
 ```bash
 $ travela -f ./.env 
 ```
 **Setup Backend** 
+--
 To setup the backend, make sure you have created your database and updated your env file with the database credentials
 
 ```bash
