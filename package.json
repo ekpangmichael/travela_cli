@@ -1,5 +1,5 @@
 {
-  "name": "travelacli",
+  "name": "travela_cli",
   "version": "1.0.0",
   "description": "A cli for travela",
   "main": "index.js",
