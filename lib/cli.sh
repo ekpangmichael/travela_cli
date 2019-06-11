@@ -35,11 +35,11 @@ elif  [ "${1-}" == "--backend" ] || [ "${1-}" == "-b" ] ; then
     folderName="travel_tool_back"
     start="yarn start:dev"
 else
-  echoMessage "${red}" "Please provide specify the repo [--frotoned or --backend]"
+  echoMessage "${red}" "Please specify the repo [--frotoned or --backend]"
 fi
 
 if [ -z "${2-}" ] ; then
-      echoMessage "${red}" "Please provide the path to your .env file"
+      echoMessage "${red}" "Please  specify the path to your .env file"
     exit 1
   else 
   pathtoenv=$2
